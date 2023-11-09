@@ -26,10 +26,10 @@ IMAGE_HEIGHT = 512  # Desired height of input images
 IMAGE_WIDTH = 512  # Desired width of input images
 PIN_MEMORY = True  # Use pinned memory for faster data transfer
 LOAD_MODEL = False  # Whether to load a pre-trained model
-TRAIN_IMG_DIR = "C:/Users/Olivier-Rukundo/Desktop/RUKUNDO/FFGPROJECT/PYTORCH/trainingDataset/trainingImages"  # Directory for training images
-TRAIN_MASK_DIR = "C:/Users/Olivier-Rukundo/Desktop/RUKUNDO/FFGPROJECT/PYTORCH/trainingDataset/trainingMasks"  # Directory for training masks
-VAL_IMG_DIR = "C:/Users/Olivier-Rukundo/Desktop/RUKUNDO/FFGPROJECT/PYTORCH/trainingDataset/validationImages"  # Directory for validation images
-VAL_MASK_DIR = "C:/Users/Olivier-Rukundo/Desktop/RUKUNDO/FFGPROJECT/PYTORCH/trainingDataset/validationMasks"  # Directory for validation masks
+TRAIN_IMG_DIR = "C:/Users/../trainingImages"  # Directory for training images
+TRAIN_MASK_DIR = "C:/Users/../trainingMasks"  # Directory for training masks
+VAL_IMG_DIR = "C:/Users/../validationImages"  # Directory for validation images
+VAL_MASK_DIR = "C:/Users/../validationMasks"  # Directory for validation masks
 
 # Define the training function
 def train_fn(loader, model, optimizer, loss_fn, scaler):
